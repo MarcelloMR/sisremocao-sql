@@ -1,5 +1,10 @@
 # sisRemoção — Camada de Dados (SQL)
 
+> **Legado (2026-09-04):** estes arquivos foram versionados e passaram a viver em
+> `sisremocao/migrations/` (repositório do backend), aplicados via `npm run migrar`
+> (node-pg-migrate). Os arquivos aqui não são mais a fonte de verdade — mantidos só
+> como histórico. Novas migrações devem ser criadas diretamente em `migrations/`.
+
 Scripts de schema e migrações do banco PostgreSQL do sisRemoção.
 
 ## Ordem de aplicação
